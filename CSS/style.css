@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(255, 246, 120); margin: 0; padding: 0;
+}
+
+.cabeçalho {
+    position: fixed; top: 0; left: 0; height: 150px; width: 100%; 
+    background-color: rgb(241, 191, 27); z-index: 100;
+
+    div {
+        text-align: left; margin-left: 20px; margin-top: -15px;}
+       
+    h1 {
+        font-size: 45px; color: rgb(0, 0, 0); 
+        font-family: Arial, Helvetica, sans-serif;}
+    h2 {
+         font-size: 20px; margin-top: -30px; color: rgb(0, 0, 0); 
+        font-family: Arial, Helvetica, sans-serif;}
+
+    .flor {
+    position: absolute; top: 20px; right: 50px; width: 147px; height: 110px; object-fit: cover; border-radius: 10px;
+    }
+    
+    nav {
+        text-align: center; margin-top: 48px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 10px; position: relative; z-index: 1000;
+        .a {color:black; background-color: rgb(252, 220, 40); border-radius: 10px; padding: 10px; text-decoration: none;
+            font-size: 20px; margin-right: 10px;}
+        .ativo {color: black; background-color: rgb(204, 154, 16); border-radius: 10px; padding: 10px; text-decoration: none;
+            font-size: 20px; margin-right: 10px;}
+        }
+    }
+    
+
+    main{
+
+        section{
+            display: flex; flex-direction: row; justify-content: left; align-items: center; gap: 50px; flex-wrap: wrap;}
+
+        .Lice {
+            width: 294px; height: 426px; border-radius: 20px; margin-top: 180px; margin-left: 40px; }
+    
+        .apresentacao {
+            text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;
+            background-color: #ffe23f; height: 180px; width: 65%; border-radius: 10px;
+
+        h2 {
+            padding: 20px; margin-top: -12px;}
+        p{
+            padding: 20px; margin-top: -70px;}
+    }
+   
+
+        .tecnologias-ferramentas {
+             .tecnologias {
+                text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: rgb(241, 191, 27); height: 20px; width: 100%; margin-top: 40px;}
+            p {
+                margin-top: 0px; margin-bottom: 10px;}
+        
+            .card-logos {
+                display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap:
+                wrap; width: 100%; margin: -10px auto;}
+
+            .card {
+                width: 100px; text-align: center; }
+        
+            .logo {
+                width: 100px; height: 100px; border-radius: 10%; margin: 0; }
+
+           .ferramentas {
+                text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: rgb(241, 191, 27); height: 20px; width: 100%; margin-top: -15px;}
+
+        }
+
+        .github {
+            .GITHUB {
+                text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: rgb(241, 191, 27); height: 20px; width: 100%; margin-top: 35px;
+            }
+
+            .git {
+                position: relative; width: 735px; height: 373px; margin: -40px auto 0;
+            }
+            .snoopy{
+                width: 735px; height: 373px; border-radius: 20px; display: block;
+            }       
+            .php {
+                position: absolute; top: 100px; left: 50px; display: flex; gap: 30px; z-index: 10;
+            }
+            .php a {
+                background-color: #d4ae03; color: black; padding: 15px 30px; border-radius: 10px; text-decoration: none;
+                font-size: 18px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        }
+    }
+
+     footer {
+        text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(241, 191, 27); height: 20px; width: 100%; margin-top: 20px;
+    }
