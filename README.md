@@ -14,9 +14,9 @@ O objetivo do site é apresentar um pouco sobre mim, minha formação, meus inte
 
 O site possui três páginas principais:
 
-- 🏠 **Início** 
-- 👩‍💻 **Sobre mim**
-- 📧 **Contato**
+- 🏠 **[ Início ]** 
+- 👩‍💻 **[ Sobre mim ]**
+- 📧 **[ Contato ]**
 
 ---
 
