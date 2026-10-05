@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(255, 246, 120); margin: 0; padding: 0;
+}
+
+.cabeçalho {
+    position: fixed; top: 0; left: 0; height: 150px; width: 100%; 
+    background-color: rgb(241, 191, 27); z-index: 100;
+
+    div {
+        text-align: left; margin-left: 20px; margin-top: -15px;}
+       
+    h1 {
+        font-size: 45px; color: rgb(0, 0, 0); 
+        font-family: Arial, Helvetica, sans-serif;}
+    h2 {
+         font-size: 20px; margin-top: -30px; color: rgb(0, 0, 0); 
+        font-family: Arial, Helvetica, sans-serif;}
+
+    .flor {
+    position: absolute; top: 20px; right: 50px; width: 147px; height: 110px; object-fit: cover; border-radius: 10px;
+    }
+    
+    nav {
+        text-align: center; margin-top: 48px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 10px; position: relative; z-index: 1000;
+        .a {color:black; background-color: rgb(252, 220, 40); border-radius: 10px; padding: 10px; text-decoration: none;
+            font-size: 20px; margin-right: 10px;}
+        .ativo {color: black; background-color: rgb(204, 154, 16); border-radius: 10px; padding: 10px; text-decoration: none;
+            font-size: 20px; margin-right: 10px;}
+        }
+    }
+
+main {
+    section {
+
+        .contatos {
+            text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(241, 191, 27); height: 20px; width: 250px; margin: 200px auto 0; border-radius: 10px;
+            padding: 10px; font-size: 20px; display: flex; justify-content: center;}
+
+        .dados-rede {
+            text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(241, 191, 27); height: 20px; width: 100%; margin-top: 20px;}
+        
+        .nome {
+            display: flex; gap: 2px; justify-content: center; font-size: 20px; align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: -30px;
+
+        .nome h4, .nome p {
+            margin: 0; }
+        }    
+
+
+        .card-contato {
+            display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap; 
+            width: 100%; margin: -5px auto;}
+
+            .card {
+                width: 200px; text-align: center;}
+            .foto {
+                width: 200px; height: 200px; border-radius: 20px; margin: 0;}
+            .f {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;}
+            
+        
+    }
+}
+
+footer {
+        text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(241, 191, 27); height: 20px; width: 100%; margin-top: 20px;
+}
